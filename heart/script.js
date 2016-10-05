@@ -64,9 +64,9 @@ if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
     container = document.createElement( 'div' );
     document.body.appendChild( container );
 
-    container.addEventListener("click", function(){
-      window.top.location.href='http://m-jo.co/projects/featured/';
-    });
+    //container.addEventListener("click", function(){
+    //  window.top.location.href='http://m-jo.co/projects/featured/';
+    //});
 
     scene = new THREE.Scene();
     camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 1, 10000);
