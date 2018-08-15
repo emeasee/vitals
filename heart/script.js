@@ -65,7 +65,7 @@ if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
     document.body.appendChild( container );
 
     container.addEventListener("click", function(){
-      window.top.location.href='http://m-jo.co/categories/featured/';
+      window.top.location.href='https://projects.m-jo.co/categories/featured/';
     });
 
     scene = new THREE.Scene();
